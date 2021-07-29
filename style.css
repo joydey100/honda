@@ -23,6 +23,7 @@ a {
   --accordion-body-color: #7e848c;
   --footer-bg: #0b0d17;
   --copyright-color: #d9dbe1;
+  --white: #fff;
 }
 section {
   padding: 100px 0;
@@ -43,6 +44,12 @@ button {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   font-weight: 500;
+  border: 2px solid var(--orange);
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
 }
 .grayscale {
   filter: grayscale(100%);
@@ -124,6 +131,13 @@ nav {
 .news-card p {
   font-size: 16px;
   color: var(--light-dark);
+}
+.news-card .honda-btn {
+  color: var(--white);
+}
+.news-card .honda-btn:hover {
+  color: var(--orange);
+  background-color: var(--white);
 }
 
 /* Testiomonial/ Happy Clients Section */
