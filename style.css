@@ -95,6 +95,7 @@ nav {
 }
 .banner-left-content span {
   font-weight: 300;
+  font-size: 14px;
 }
 .banner-left-content h2 {
   font-weight: 600;
@@ -171,6 +172,17 @@ nav {
   font-family: "Inter", sans-serif;
 }
 
+/* Top Selling Bike */
+.top-selling-bike p {
+  font-weight: 500;
+  font-size: 16px;
+}
+.top-selling-bike h3 {
+  color: var(--secondary-blue);
+  font-weight: 600;
+  font-size: 26px;
+}
+
 /* Footer */
 footer {
   background-color: var(--footer-bg);
@@ -185,4 +197,19 @@ footer {
   font-size: 18px;
   font-family: "Inter", sans-serif;
 }
-/* Contact Section */
+
+/* Responsive For Mobile Devices */
+@media only screen and (max-width: 767px) {
+  .banner-left-content span {
+    font-size: 16px;
+  }
+  .banner-left-content h2 {
+    font-size: 36px;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+  .short-title {
+    font-size: 14px;
+  }
+}
