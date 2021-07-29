@@ -11,9 +11,6 @@ body {
 a {
   text-decoration: none;
 }
-img {
-  max-width: 100%;
-}
 :root {
   --banner-bg: #264653;
   --orange: #e76f51;
@@ -80,6 +77,7 @@ button {
 header,
 nav {
   background-color: var(--banner-bg);
+  width: 100%;
 }
 
 .navbar-brand {
