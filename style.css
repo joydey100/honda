@@ -90,6 +90,9 @@ nav {
 }
 
 /* Banner Section */
+.banner-section {
+  padding-top: 150;
+}
 .banner-left-content span {
   font-weight: 300;
 }
