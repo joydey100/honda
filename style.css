@@ -1,0 +1,187 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+/* Google Fonts - Inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+/* Global CSS */
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --banner-bg: #264653;
+  --orange: #e76f51;
+  --secondary-blue: #0a0826;
+  --black: #000;
+  --light-dark: #6c6c6c;
+  --blue: #23a6f0;
+  --dark-blue: #252b42;
+  --dark-400: #3b3b3b;
+  --accordion-body-color: #7e848c;
+  --footer-bg: #0b0d17;
+  --copyright-color: #d9dbe1;
+}
+section {
+  padding: 100px 0;
+}
+.orange {
+  color: var(--orange);
+}
+button {
+  outline: 0;
+  border: 0;
+}
+.honda-btn {
+  background-color: var(--orange);
+  padding: 10px 24px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: 500;
+}
+.grayscale {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.section-title {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--black);
+}
+.short-title {
+  color: var(--orange);
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+.short-title::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5%;
+  height: 1px;
+  background-color: var(--orange);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+/* Header Section */
+header,
+nav {
+  background-color: var(--banner-bg);
+  width: 100%;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 500;
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Banner Section */
+.banner-section {
+  padding: 150px 0 95px;
+}
+.banner-left-content span {
+  font-weight: 300;
+}
+.banner-left-content h2 {
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 18px;
+}
+.banner-left-content p {
+  font-weight: 300;
+  font-size: 16px;
+}
+.banner-left-content .honda-btn {
+  padding: 10px 46px;
+}
+
+/* Latest News Section */
+.latest-news .section-title {
+  color: var(--secondary-blue);
+}
+.news-card {
+  padding: 20px;
+}
+.news-card h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.news-card p {
+  font-size: 16px;
+  color: var(--light-dark);
+}
+
+/* Testiomonial/ Happy Clients Section */
+.testimonial-section .section-title {
+  color: var(--secondary-blue);
+}
+.client {
+  padding: 30px;
+}
+.client img {
+  width: 149px;
+}
+.client p {
+  font-size: 16px;
+  color: var(--light-dark);
+}
+.fa-star {
+  color: #e76f51;
+  font-size: 20px;
+}
+.client-name {
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 600;
+}
+.client-job {
+  color: var(--dark-blue);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* FAQ Section */
+.faq-section .section-title {
+  color: var(--secondary-blue);
+}
+.accordion-button {
+  font-size: 20px;
+  color: var(--dark-400);
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+.accordion-body p {
+  font-size: 16px;
+  color: var(--accordion-body-color);
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+/* Footer */
+footer {
+  background-color: var(--footer-bg);
+  padding: 55px 0 85px;
+}
+.copyright p {
+  color: var(--copyright-color);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+.mobile-apps h4 {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
