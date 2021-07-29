@@ -1,9 +1,14 @@
+/***********************
+===== Google Fonts  =====
+***********************/
 /* Google Fonts - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 /* Google Fonts - Inter */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
 
-/* Global CSS */
+/***********************
+===== Global CSS =====
+***********************/
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
@@ -80,7 +85,10 @@ button {
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
 }
-/* Header Section */
+
+/****************************
+== Header Section Start ==
+****************************/
 header,
 nav {
   background-color: var(--banner-bg);
@@ -116,6 +124,14 @@ nav {
 .banner-left-content .honda-btn {
   padding: 10px 46px;
 }
+
+/****************************
+== Header Section End ==
+****************************/
+
+/****************************
+== Main Section Start ==
+****************************/
 
 /* Latest News Section */
 .latest-news .section-title {
@@ -197,7 +213,13 @@ nav {
   font-size: 26px;
 }
 
-/* Footer */
+/****************************
+== Main Section End ==
+****************************/
+
+/****************************
+== Footer Section Start ==
+****************************/
 footer {
   background-color: var(--footer-bg);
   padding: 55px 0 85px;
@@ -211,8 +233,13 @@ footer {
   font-size: 18px;
   font-family: "Inter", sans-serif;
 }
+/****************************
+== Footer Section End ==
+****************************/
 
-/* Responsive For Mobile Devices */
+/******************************************
+=== Media Query for Mobile Devices ===
+******************************************/
 @media only screen and (max-width: 767px) {
   .banner-left-content span {
     font-size: 16px;
